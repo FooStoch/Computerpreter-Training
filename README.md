@@ -5,7 +5,7 @@ This repository holds the preprocessing and training code for Computerpreter. Co
 
 To learn more about Computerpreter, please visit computerpreter.streamlit.app to test it out! To view the app combining Computerpreter's features into a fully functional Streamlit web app, please visit [Computerpreter's repository for Streamlit](https://github.com/FooStoch/ASL_Signs_Detection/).
 
-To run all code, please install the dependencies in `requirements.txt`.
+View [our amazing slide deck](https://docs.google.com/presentation/d/192PEwEdJvzwmJIR5-nHPEJYOVw0Z5sMqbfh7zhuwz0A/edit?usp=sharing) for more details on community engagement, project development, entrepreneurship, and much more!
 
 ## Fingerspelling Classifier
 

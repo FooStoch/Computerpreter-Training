@@ -1,0 +1,819 @@
+{
+  "target_signs": [
+    "me",
+    "you",
+    "he",
+    "we",
+    "they",
+    "mother",
+    "father",
+    "friend",
+    "family",
+    "yes",
+    "no",
+    "not",
+    "please",
+    "thank you",
+    "sorry",
+    "hello",
+    "bye",
+    "again",
+    "what",
+    "why",
+    "who",
+    "which",
+    "name",
+    "eat",
+    "drink",
+    "help",
+    "need",
+    "like",
+    "don't like",
+    "go",
+    "play",
+    "want",
+    "don't want",
+    "think",
+    "know",
+    "don't know",
+    "have",
+    "school",
+    "home",
+    "bathroom",
+    "water",
+    "book",
+    "work",
+    "sit",
+    "stop",
+    "good",
+    "bad",
+    "happy",
+    "sad",
+    "tired",
+    "understand",
+    "don't understand",
+    "more",
+    "finish",
+    "same",
+    "now"
+  ],
+  "synonym_source": "D:\\Computerpreter\\MS-ASL\\MSASL_synonym.json",
+  "searched_terms_by_target": {
+    "me": [
+      "me"
+    ],
+    "you": [
+      "you"
+    ],
+    "he": [
+      "he",
+      "it",
+      "she"
+    ],
+    "we": [
+      "we"
+    ],
+    "they": [
+      "them",
+      "they"
+    ],
+    "mother": [
+      "mom",
+      "mommy",
+      "mother"
+    ],
+    "father": [
+      "dad",
+      "daddy",
+      "father"
+    ],
+    "friend": [
+      "friend",
+      "friends"
+    ],
+    "family": [
+      "family"
+    ],
+    "yes": [
+      "yes"
+    ],
+    "no": [
+      "no"
+    ],
+    "not": [
+      "don't",
+      "dont",
+      "not"
+    ],
+    "please": [
+      "please"
+    ],
+    "thank you": [
+      "thank you",
+      "thanks",
+      "thankyou"
+    ],
+    "sorry": [
+      "regret",
+      "sorry"
+    ],
+    "hello": [
+      "hello"
+    ],
+    "bye": [
+      "bye",
+      "goodbye"
+    ],
+    "again": [
+      "again",
+      "repeat"
+    ],
+    "what": [
+      "what"
+    ],
+    "why": [
+      "why"
+    ],
+    "who": [
+      "who"
+    ],
+    "which": [
+      "which"
+    ],
+    "name": [
+      "name"
+    ],
+    "eat": [
+      "eat",
+      "food"
+    ],
+    "drink": [
+      "drink"
+    ],
+    "help": [
+      "aid",
+      "help"
+    ],
+    "need": [
+      "must",
+      "need",
+      "should"
+    ],
+    "like": [
+      "like"
+    ],
+    "don't like": [
+      "dislike",
+      "don't like",
+      "don'tlike",
+      "dont like",
+      "dontlike"
+    ],
+    "go": [
+      "go"
+    ],
+    "play": [
+      "play",
+      "playing"
+    ],
+    "want": [
+      "want"
+    ],
+    "don't want": [
+      "don't want",
+      "don'twant",
+      "dont want",
+      "dontwant"
+    ],
+    "think": [
+      "think"
+    ],
+    "know": [
+      "know"
+    ],
+    "don't know": [
+      "don't know",
+      "don'tknow",
+      "dont know",
+      "dontknow"
+    ],
+    "have": [
+      "have"
+    ],
+    "school": [
+      "school"
+    ],
+    "home": [
+      "home"
+    ],
+    "bathroom": [
+      "bathroom",
+      "toilet"
+    ],
+    "water": [
+      "water"
+    ],
+    "book": [
+      "book"
+    ],
+    "work": [
+      "work"
+    ],
+    "sit": [
+      "chair",
+      "sit"
+    ],
+    "stop": [
+      "stop"
+    ],
+    "good": [
+      "good"
+    ],
+    "bad": [
+      "bad"
+    ],
+    "happy": [
+      "happy",
+      "joyful"
+    ],
+    "sad": [
+      "sad"
+    ],
+    "tired": [
+      "tired"
+    ],
+    "understand": [
+      "comprehend",
+      "understand"
+    ],
+    "don't understand": [
+      "don't understand",
+      "don'tunderstand",
+      "dont understand",
+      "dontunderstand",
+      "misunderstand",
+      "not understand",
+      "notunderstand"
+    ],
+    "more": [
+      "more"
+    ],
+    "finish": [
+      "done",
+      "finish",
+      "finished"
+    ],
+    "same": [
+      "same",
+      "same same",
+      "samesame",
+      "similar"
+    ],
+    "now": [
+      "now"
+    ]
+  },
+  "input_files": {
+    "MS-ASL": [
+      "D:\\Computerpreter\\MS-ASL\\MSASL_train.json",
+      "D:\\Computerpreter\\MS-ASL\\MSASL_val.json",
+      "D:\\Computerpreter\\MS-ASL\\MSASL_test.json"
+    ],
+    "MS-ASL synonyms": "D:\\Computerpreter\\MS-ASL\\MSASL_synonym.json",
+    "WLASL": "D:\\Computerpreter\\WLASL-master\\start_kit\\WLASL_v0.3.json"
+  },
+  "total_entries": 3854,
+  "total_by_source": {
+    "MS-ASL": 2793,
+    "WLASL": 1061
+  },
+  "counts_by_source_target_and_match": {
+    "MS-ASL": {
+      "again": {
+        "again": 64
+      },
+      "bad": {
+        "bad": 49
+      },
+      "bathroom": {
+        "bathroom": 54
+      },
+      "book": {
+        "book": 58
+      },
+      "bye": {
+        "bye": 34
+      },
+      "don't understand": {
+        "not understand": 24
+      },
+      "drink": {
+        "drink": 54
+      },
+      "eat": {
+        "eat": 77
+      },
+      "family": {
+        "family": 57
+      },
+      "father": {
+        "father": 60
+      },
+      "finish": {
+        "finish": 67
+      },
+      "friend": {
+        "friend": 66
+      },
+      "go": {
+        "go": 49
+      },
+      "good": {
+        "good": 65
+      },
+      "happy": {
+        "happy": 72
+      },
+      "have": {
+        "have": 46
+      },
+      "he": {
+        "he": 19
+      },
+      "hello": {
+        "hello": 64
+      },
+      "help": {
+        "help": 56
+      },
+      "home": {
+        "home": 43
+      },
+      "know": {
+        "know": 48
+      },
+      "like": {
+        "like": 71
+      },
+      "me": {
+        "me": 45
+      },
+      "more": {
+        "more": 38
+      },
+      "mother": {
+        "mother": 64
+      },
+      "name": {
+        "name": 52
+      },
+      "need": {
+        "must": 12,
+        "need": 31,
+        "should": 19
+      },
+      "no": {
+        "no": 73
+      },
+      "not": {
+        "not": 44
+      },
+      "now": {
+        "now": 51
+      },
+      "play": {
+        "play": 49
+      },
+      "please": {
+        "please": 57
+      },
+      "sad": {
+        "sad": 63
+      },
+      "same": {
+        "same": 52
+      },
+      "school": {
+        "school": 68
+      },
+      "sit": {
+        "sit": 66
+      },
+      "sorry": {
+        "sorry": 49
+      },
+      "stop": {
+        "stop": 26
+      },
+      "thank you": {
+        "thank you": 49,
+        "thanks": 2
+      },
+      "they": {
+        "they": 23
+      },
+      "think": {
+        "think": 27
+      },
+      "tired": {
+        "tired": 66
+      },
+      "understand": {
+        "understand": 53
+      },
+      "want": {
+        "want": 69
+      },
+      "water": {
+        "water": 56
+      },
+      "we": {
+        "we": 34
+      },
+      "what": {
+        "what": 66
+      },
+      "which": {
+        "which": 35
+      },
+      "who": {
+        "who": 51
+      },
+      "why": {
+        "why": 40
+      },
+      "work": {
+        "work": 49
+      },
+      "yes": {
+        "yes": 65
+      },
+      "you": {
+        "you": 52
+      }
+    },
+    "WLASL": {
+      "again": {
+        "again": 16,
+        "repeat": 9
+      },
+      "bad": {
+        "bad": 16
+      },
+      "bathroom": {
+        "bathroom": 16,
+        "toilet": 13
+      },
+      "book": {
+        "book": 40
+      },
+      "bye": {
+        "bye": 7,
+        "goodbye": 10
+      },
+      "don't understand": {
+        "misunderstand": 9
+      },
+      "don't want": {
+        "don't want": 9
+      },
+      "drink": {
+        "drink": 35
+      },
+      "eat": {
+        "eat": 19,
+        "food": 12
+      },
+      "family": {
+        "family": 20
+      },
+      "father": {
+        "dad": 10,
+        "father": 14
+      },
+      "finish": {
+        "done": 7,
+        "finish": 21
+      },
+      "friend": {
+        "friend": 16
+      },
+      "go": {
+        "go": 26
+      },
+      "good": {
+        "good": 16
+      },
+      "happy": {
+        "happy": 16
+      },
+      "have": {
+        "have": 17
+      },
+      "he": {
+        "she": 9
+      },
+      "hello": {
+        "hello": 13
+      },
+      "help": {
+        "aid": 7,
+        "help": 22
+      },
+      "home": {
+        "home": 16
+      },
+      "know": {
+        "know": 16
+      },
+      "like": {
+        "like": 21
+      },
+      "me": {
+        "me": 9
+      },
+      "more": {
+        "more": 15
+      },
+      "mother": {
+        "mom": 11,
+        "mother": 21
+      },
+      "name": {
+        "name": 16
+      },
+      "need": {
+        "must": 11,
+        "need": 18,
+        "should": 11
+      },
+      "no": {
+        "no": 22
+      },
+      "not": {
+        "not": 14
+      },
+      "now": {
+        "now": 21
+      },
+      "play": {
+        "play": 19
+      },
+      "please": {
+        "please": 15
+      },
+      "sad": {
+        "sad": 14
+      },
+      "same": {
+        "same": 18,
+        "similar": 9
+      },
+      "school": {
+        "school": 19
+      },
+      "sit": {
+        "chair": 26,
+        "sit": 13
+      },
+      "sorry": {
+        "sorry": 14
+      },
+      "stop": {
+        "stop": 11
+      },
+      "thank you": {
+        "thank you": 14
+      },
+      "they": {
+        "them": 8,
+        "they": 9
+      },
+      "think": {
+        "think": 14
+      },
+      "tired": {
+        "tired": 16
+      },
+      "understand": {
+        "understand": 14
+      },
+      "want": {
+        "want": 19
+      },
+      "water": {
+        "water": 18
+      },
+      "we": {
+        "we": 10
+      },
+      "what": {
+        "what": 21
+      },
+      "which": {
+        "which": 14
+      },
+      "who": {
+        "who": 25
+      },
+      "why": {
+        "why": 17
+      },
+      "work": {
+        "work": 19
+      },
+      "yes": {
+        "yes": 22
+      },
+      "you": {
+        "you": 16
+      }
+    }
+  },
+  "counts_by_target_and_match": {
+    "again": {
+      "again": 80,
+      "repeat": 9
+    },
+    "bad": {
+      "bad": 65
+    },
+    "bathroom": {
+      "bathroom": 70,
+      "toilet": 13
+    },
+    "book": {
+      "book": 98
+    },
+    "bye": {
+      "bye": 41,
+      "goodbye": 10
+    },
+    "don't understand": {
+      "misunderstand": 9,
+      "not understand": 24
+    },
+    "don't want": {
+      "don't want": 9
+    },
+    "drink": {
+      "drink": 89
+    },
+    "eat": {
+      "eat": 96,
+      "food": 12
+    },
+    "family": {
+      "family": 77
+    },
+    "father": {
+      "dad": 10,
+      "father": 74
+    },
+    "finish": {
+      "done": 7,
+      "finish": 88
+    },
+    "friend": {
+      "friend": 82
+    },
+    "go": {
+      "go": 75
+    },
+    "good": {
+      "good": 81
+    },
+    "happy": {
+      "happy": 88
+    },
+    "have": {
+      "have": 63
+    },
+    "he": {
+      "he": 19,
+      "she": 9
+    },
+    "hello": {
+      "hello": 77
+    },
+    "help": {
+      "aid": 7,
+      "help": 78
+    },
+    "home": {
+      "home": 59
+    },
+    "know": {
+      "know": 64
+    },
+    "like": {
+      "like": 92
+    },
+    "me": {
+      "me": 54
+    },
+    "more": {
+      "more": 53
+    },
+    "mother": {
+      "mom": 11,
+      "mother": 85
+    },
+    "name": {
+      "name": 68
+    },
+    "need": {
+      "must": 23,
+      "need": 49,
+      "should": 30
+    },
+    "no": {
+      "no": 95
+    },
+    "not": {
+      "not": 58
+    },
+    "now": {
+      "now": 72
+    },
+    "play": {
+      "play": 68
+    },
+    "please": {
+      "please": 72
+    },
+    "sad": {
+      "sad": 77
+    },
+    "same": {
+      "same": 70,
+      "similar": 9
+    },
+    "school": {
+      "school": 87
+    },
+    "sit": {
+      "chair": 26,
+      "sit": 79
+    },
+    "sorry": {
+      "sorry": 63
+    },
+    "stop": {
+      "stop": 37
+    },
+    "thank you": {
+      "thank you": 63,
+      "thanks": 2
+    },
+    "they": {
+      "them": 8,
+      "they": 32
+    },
+    "think": {
+      "think": 41
+    },
+    "tired": {
+      "tired": 82
+    },
+    "understand": {
+      "understand": 67
+    },
+    "want": {
+      "want": 88
+    },
+    "water": {
+      "water": 74
+    },
+    "we": {
+      "we": 44
+    },
+    "what": {
+      "what": 87
+    },
+    "which": {
+      "which": 49
+    },
+    "who": {
+      "who": 76
+    },
+    "why": {
+      "why": 57
+    },
+    "work": {
+      "work": 68
+    },
+    "yes": {
+      "yes": 87
+    },
+    "you": {
+      "you": 68
+    }
+  },
+  "outputs": {
+    "msasl": "D:\\Computerpreter\\05272026 (third new)\\collected_data\\msasl_target_signs_with_synonyms.json",
+    "wlasl": "D:\\Computerpreter\\05272026 (third new)\\collected_data\\wlasl_target_signs_with_synonyms.json",
+    "combined": "D:\\Computerpreter\\05272026 (third new)\\collected_data\\all_target_sign_entries_with_synonyms.json",
+    "summary": "D:\\Computerpreter\\05272026 (third new)\\collected_data\\collection_summary.json"
+  }
+}

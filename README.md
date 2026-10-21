@@ -1,4 +1,4 @@
-# Computerpreter-Training
+# Computerpreter Training
 Forest Young and Victor Young
 
 This repository holds the preprocessing and training code for Computerpreter. Computerpreter aims to optimize Deaf accessibility through real-time American Sign Language translation. Computerpreter consists of the fingerspelling classifier and the isolated sign classifier, divided into two different folders in this repository.
@@ -15,9 +15,7 @@ Our data is not uploaded here, but the code provides our simple and fast method 
 
 Please view our training progress in `train_model.ipynb`. You can view training history and specific hyperparameter specifications for our **MLP**, **SVM**, **XGB**, and **RF** models! The final test accuracies are present in `results.json`, and the best model (`MLP_3.pt`) can be found in the `models` folder. Note that this folder will be filled with all models after running `train_model.ipynb`.
 
-The Python version is 3.9.13. Make sure to install all the requirements in requirements.txt and then run the program in inference_classifier.py.
-
-Forest Young and Victor Young
+The Python version is 3.9.13. Make sure to install all the requirements in `requirements.txt` and then run the program in `inference_classifier.py`.
 
 ## Sign Classifier
 

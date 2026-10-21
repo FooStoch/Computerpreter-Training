@@ -3,7 +3,7 @@ Forest Young and Victor Young
 
 This repository holds the preprocessing and training code for Computerpreter. Computerpreter aims to optimize Deaf accessibility through real-time American Sign Language translation. Computerpreter consists of the fingerspelling classifier and the isolated sign classifier, divided into two different folders in this repository.
 
-To learn more about Computerpreter, please visit computerpreter.streamlit.app to test it out! To view the app combining Computerpreter's features into a fully functional Streamlit web app, please visit [Computerpreter's repository for Streamlit](https://github.com/FooStoch/ASL_Signs_Detection/).
+To learn more about Computerpreter, please visit [computerpreter.streamlit.app](https://computerpreter.streamlit.app) to test it out! To view the app combining Computerpreter's features into a fully functional Streamlit web app, please visit [Computerpreter's repository for Streamlit](https://github.com/FooStoch/ASL_Signs_Detection/).
 
 View [our amazing slide deck](https://docs.google.com/presentation/d/192PEwEdJvzwmJIR5-nHPEJYOVw0Z5sMqbfh7zhuwz0A/edit?usp=sharing) for more details on community engagement, project development, entrepreneurship, and much more!
 

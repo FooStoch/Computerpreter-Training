@@ -1,1 +1,11 @@
-
+opencv-python
+mediapipe
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+tqdm
+yt-dlp
+jupyter
+ipykernel

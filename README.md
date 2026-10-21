@@ -15,7 +15,7 @@ The dynamic sign classifier uses MediaPipe Holistic to extract 42 hand landmarks
 
 Because MediaPipe selects 468 face landmarks in total, `weruhwiuhrciwuh` selects the most important 30. After preprocessing, 36 models are trained on the data. The models are 4 sets of 9 different architectures, 5 of which are self-made and the other 4 are research-inspired. Finally, test the classifier in `WOIERJOWIEJROWIEJR`.
 
-Because MS-ASL and WLASL provide links to YouTube videos and other websites, we use `yt-dlp`. This requires `cookies.txt` to be present in `Dynamic Sign`, which can be gotten using this extension: https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc. **Never share `cookies.txt` online!!!**
+Because MS-ASL and WLASL provide links to YouTube videos and other websites, we use `yt-dlp`. This requires `cookies.txt` to be present in `Dynamic Sign`, which can be gotten using this extension: [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc). **Never share `cookies.txt` online!!!**
 
 Below is a list of all folders that are present or will be created upon running the code.
 

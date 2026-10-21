@@ -28,6 +28,9 @@ Because MediaPipe selects 468 face landmarks in total, `landmark_selection.ipynb
 | Bi-LSTM + attention | Bi-GRU + attention | Residual temporal CNN | Transformer encoder | TCN + Bi-GRU + attention |
 | -------- | -------- | -------- | -------- | -------- |
 
+| Temporal I3D (inception) | TGCN (temporal GCN) | ST-GCN (spatio-temporal GCN) | SL-GCN (decoupled GCN) |
+| -------- | -------- | -------- | -------- |
+
 Finally, test the classifier in `asl_detector.py`.
 
 Because MS-ASL and WLASL provide links to YouTube videos and other websites, we use `yt-dlp`. This requires `cookies.txt` to be present in `Dynamic Sign`, which can be gotten using this extension: [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc). **Never share `cookies.txt` online!!!**

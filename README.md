@@ -1,4 +1,6 @@
 # Computerpreter-Training
+Forest Young and Victor Young
+
 This repository holds the preprocessing and training code for Computerpreter. Computerpreter aims to optimize Deaf accessibility through real-time American Sign Language translation. Computerpreter consists of the fingerspelling classifier and the isolated sign classifier, divided into two different folders in this repository.
 
 To learn more about Computerpreter, please visit computerpreter.streamlit.app to test it out! To view the app combining Computerpreter's features into a fully functional Streamlit web app, please visit [Computerpreter's repository for Streamlit](https://github.com/FooStoch/ASL_Signs_Detection/).
@@ -24,4 +26,3 @@ Below is a list of all folders that are present or will be created upon running 
 * `videos`: This folder will be created after running `preprocess.py` and contains temporally and spatially cropped videos.
 * `landmarks`: This folder will be created after running `landmark_extraction.ipynb` and contains the all 543 landmarks for every frame in every video. These landmarks are temporally normalized (30 frames per video) and spatially normalized (based on shoulder-to-shoulder length).
 * `selected_landmarks`: This folder will be created after running `landmark_selection.ipynb` and contains the top 30 face landmarks, totaling 105 landmarks, selected with an ExtraTreesClassifier. This folder is provided for convenient testing of the model.
-* ffmpeg?

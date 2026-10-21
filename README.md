@@ -34,3 +34,9 @@ Below is a list of all folders that are present or will be created upon running 
 * `videos`: This folder will be created after running `preprocess.py` and contains temporally and spatially cropped videos.
 * `landmarks`: This folder will be created after running `landmark_extraction.ipynb` and contains the all 543 landmarks for every frame in every video. These landmarks are temporally normalized (30 frames per video) and spatially normalized (based on shoulder-to-shoulder length).
 * `selected_landmarks`: This folder will be created after running `landmark_selection.ipynb` and contains the top 30 face landmarks, totaling 105 landmarks, selected with an ExtraTreesClassifier. This folder is provided for convenient testing of the model.
+
+## Thank you!
+
+Thank you for your attention to our project, Computerpreter! We are very thankful for the opportunity for us to be able to create something so fun and meaningful! 
+
+Through this challenge, we both learned so much. From researching the gap between Artificial Intelligence and American Sign Language, this incredible journey has been one of great significance and magnificence. We want to give a special thanks to Mrs. Tolley for giving us inspiration. If you have any questions about our project, feel free to reach out.

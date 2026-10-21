@@ -19,7 +19,7 @@ The Python version is 3.9.13. Make sure to install all the requirements in `requ
 
 ## Sign Classifier
 
-The dynamic sign classifier uses MediaPipe Holistic to extract 42 hand landmarks, 33 pose landmarks, and 30 face landmarks, and then predict one of the over 50 common signs trained. The code uses data from MS-ASL, WLASL 2000, and ASL Citizen, which are publically available for non-commercial purposes. MS-ASL and WLASL are provided because they only contain links and times to videos on the Internet, while ASL Citizen contains actual video files and is omitted for storage. Paste ASL Citizen's folder in the same directory as MS-ASL and WLASL.
+The dynamic sign classifier uses MediaPipe Holistic to extract 42 hand landmarks, 33 pose landmarks, and 30 face landmarks, and then predict one of the over 50 common signs trained. The code uses data from MS-ASL, WLASL 2000, and ASL Citizen, which are publically available for non-commercial purposes. MS-ASL and WLASL are provided because they only contain links and times to videos on the Internet, while ASL Citizen contains actual video files and is omitted for storage. Paste ASL Citizen's folder in the same directory as MS-ASL and WLASL. Many logs, indexes, CSVs, and pickle files aren't shared due to privacy and size.
 
 Because MS-ASL and WLASL provide links to YouTube videos and other websites, we use `yt-dlp`. This requires `cookies.txt` to be present in `Dynamic Sign`, which can be gotten using this extension: [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc). **Never share `cookies.txt` online!!!**
 

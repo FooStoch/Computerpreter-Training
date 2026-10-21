@@ -26,7 +26,7 @@ Because MS-ASL and WLASL provide links to YouTube videos and other websites, we 
 Because MediaPipe selects 468 face landmarks in total, `landmark_selection.ipynb` selects the most important 30. After preprocessing, 36 models are trained on the data. The models are 4 sets of 9 different architectures, 5 of which are self-made and the other 4 are research-inspired.
 
 | Bi-LSTM + attention | Bi-GRU + attention | $$\color{blue}{\text{Residual temporal CNN}}$$ | Transformer encoder | TCN + Bi-GRU + attention |
-| -------- | -------- | -------- | -------- | -------- |
+| -------- | -------- | :--------: | -------- | -------- |
 
 | Temporal I3D (inception) | TGCN (temporal GCN) | ST-GCN (spatio-temporal GCN) | SL-GCN (decoupled GCN) |
 | -------- | -------- | -------- | -------- |

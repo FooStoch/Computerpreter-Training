@@ -9,7 +9,15 @@ To run all code, please install the dependencies in `requirements.txt`.
 
 ## Fingerspelling Classifier
 
-The fingerspelling classifier uses MediaPipe Hands to extract 21 hand landmarks from each hand, and then predict one of the 26 handshapes. To obtain high-quality data, run the `GARBANZO`, which opens up the webcam and records 1000 frames for each letter. For high variation and model robustness, move and rotate your hand to mirror realistic fingerspelling. After MediaPipe preprocessing, 16 models are trained on the data. The models are 4 sets of 4 different architectures with different hyperparameters. Finally, test the classifier in `TRIBANZO`.
+For the fingerspelling classifier, we used Python, OpenCV and Mediapipe! First, we collected around 26000 images for handshapes A-Z using OpenCV and they are saved in `./data`. Second, we created a dataset using MediaPipe to extract 21 hand landmarks, totaling 63 features, for each image. Third, we coded 4 different ML architectures with 4 hyperparameter specifications each.
+
+Our data is not uploaded here, but the code provides our simple and fast method for getting data. Simply run `collect_imgs.py` and let the webcam capture 1000 images of you holding up the requested handshape. Make sure to move and rotate your hand for higher variety as this better reflects real-life fingerspelling. These images will be dumped into the newly created `data` folder. Afterwards, running `create_dataset.py` will run these images through MediaPipe Hands to get the proper landmarks for each image, stored in `data.pickle`, which is uploaded here.
+
+Please view our training progress in `train_model.ipynb`. You can view training history and specific hyperparameter specifications for our **MLP**, **SVM**, **XGB**, and **RF** models! The final test accuracies are present in `results.json`, and the best model (`MLP_3.pt`) can be found in the `models` folder. Note that this folder will be filled with all models after running `train_model.ipynb`.
+
+The Python version is 3.9.13. Make sure to install all the requirements in requirements.txt and then run the program in inference_classifier.py.
+
+Forest Young and Victor Young
 
 ## Sign Classifier
 

@@ -33,7 +33,7 @@ Because MediaPipe selects 468 face landmarks in total, `landmark_selection.ipynb
 | Temporal I3D (inception) | TGCN (temporal GCN) | ST-GCN (spatio-temporal GCN) | SL-GCN (decoupled GCN) |
 | -------- | -------- | -------- | -------- |
 
-In our training, the last 4 research-inspired models were trained on Google Colab using free compute units (YAY!). However, they did not outperform the **residual temporal CNN**, so `Computerpreter_4th_Iteration_train_model.ipynb` isn't actually needed for getting `best_model.pt`. It is still provided for your reference! Finally, test the classifier in `asl_detector.py`.
+In our training, the last 4 research-inspired models were trained on Google Colab using free compute units (YAY!). However, they did not outperform the **residual temporal CNN**, so `Computerpreter_4th_Iteration_train_model.ipynb` isn't actually needed for getting `best_model.pt`. It is still provided for your reference! Finally, test the classifier in `asl_detector.py`, which actually supports running all the different models.
 
 Below is a list of all folders that are present or will be created upon running the code.
 
